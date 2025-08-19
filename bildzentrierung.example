@@ -1,0 +1,13 @@
+/* Einfache Bildzentrierung (Idk ob ich das richtig geschrieben hab */
+
+.hero {
+      height: 100vh;
+      background: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+        url('bild.png') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 0 10%;
+    }
